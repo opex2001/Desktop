@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<style>
+
+/* Full-width input fields */
+
+Input[type=text],
+Input[type=password] {
+    Width: 100%;
+    Padding: 12px 20px;
+    Margin: 8px 0;
+    Display: inline-block;
+    Border: 1px solid #ccc;
+    Box-sizing: border-box;
+}
+
+/* Set a style for all buttons */
+
+Button {
+    Background-color: #48d1cc;
+    Color: white;
+    Padding: 14px 20px;
+    Margin: 8px 0;
+    Border: none;
+    Cursor: pointer;
+    Width: 100%;
+}
+
+
+.cancelbtn {
+    Width: auto;
+    Padding: 10px 18px;
+    Background-color: #4682b4;
+}
+
+/* Center the image and position
+The close button */
+
+.imgcontainer {
+    Text-align: center;
+    Margin: 24px 0 12px 0;
+    Position: relative;
+}
+
+Img.avatar {
+    Width: 40%;
+    Border-radius: 50%;
+}
+
+.container {
+    Padding: 16px;
+}
+
+Span.psw {
+    Float: right;
+    Padding-top: 16px;
+}
+
+/* The Modal (background) */
+
+.modal {
+   Display: none;
+   Position: fixed;
+   z-index: 1;
+   left: 0;
+   top: 0;
+   width: 100%;
+   height: 100%;
+   overflow: auto;
+   background-color: rgb(0,0,0);
+   background-color: rgba(0,0,0,0.4);
+   padding-top: 60px;
+}
+
+
+.modal-content {
+    Background-color: #fefefe;
+    Margin: 5% auto 15% auto;
+    Border: 1px solid #888;
+    Width: 80%;
+}
+
+/* The Close Button (x) */
+
+.close {
+    Position: absolute;
+    Right: 25px;
+    Top: 0;
+    Color: #000;
+    Font-size: 35px;
+    Font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    Color: red;
+    Cursor: pointer;
+}
+
+/* Add Zoom Animation */ 
+
+.animate {
+ -webkit-animation: animatezoom 0.6s;
+ Animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+ From {-webkit-transform: scale(0)}
+ To {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+    From {transform: scale(0)}
+    To {transform: scale(1)}
+}
+
+/* Change styles for span and cancel
+Button on extra small screens */ 
+
+@media screen and(max-width: 300px){
+    Span.psw {
+       Display: block;
+       Float: none;
+    }
+    .cancelbtn {
+       Width: 100%;
+    }
+}
+</style>
+<body>
+
+<h2> Modal Login Form</h2>
+
+<button onclick="document
+ style=display="block";width:auto;>Login
+</button>
+
+<div id=”id01” class=”modal”>
+
+<form class=”modal-content animate”
+Action=”action_page.php”>
+<div class=”imgcontainer”>
+<span onclick=”document
+.getElementById(‘id01’)
+
+.style.display=’none’”
+Class=”close” title=”Close Modal”>
+    &times;</span>
+
+ <img src=”img_profile.png”
+ Alt=”Avatar”
+ Class=”avatar”>
+    </div>
+
+
+ <div class=”container”>
+  <label><b>Username</b></label>
+  <input type=”text” placeholder=
+  “Enter Username”
+  Name=”uname” required>
+
+
+<label><b>Password</b></label>
+<input type=”password” placeholder=
+“Enter Password” name=”psw” required>
+
+
+<button type=”submit”>Login</button>
+<input type=”checkbox”
+Checked=”checked”>
+Remember me
+</div>
+
+
+ <div class=”container”
+ Style=”background-color:white>
+ <button type=”button”
+ Onclick=”document.getElementById
+ (‘id01’).style.
+
+ Display=’none’” class=”cancelbtn”>
+ Cancel</button>
+ <span class=”psw”>Forgot
+ <a href=”#”>password?
+
+ </a></span>
+  </div>
+  </form>
+</div>
+
+<script>
+
+// Get the modal 
+
+Var modal = document.getElementById
+(‘id01’);
+
+Window.onclick = function(event) {
+    If (event.target == modal) {
+     Modal.style.display = “none”;
+    }
+}
+</script>
+
+</body>
+</html>

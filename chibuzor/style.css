@@ -1,0 +1,90 @@
+*{
+margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+}
+/* this is my menu */
+.nav-container, .menu-container, .menu-container ul{
+display: flex;
+align-items: center;
+background-color:rgb(8, 140, 184);
+
+}
+h1{
+  font-size: 30px;
+}
+.nav-container{
+  justify-content: space-between;
+  padding: 20px;
+  
+}
+.nav-search{
+  width: 60%;
+  padding:3px ;
+  border-radius: 10px;
+  border:2px solid darkblue;
+}
+.menu-container ul li{
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+.menu-container ul li a {
+  text-transform: capitalize;
+  color: black;
+  font-family: arial;
+  font-weight: 500;
+  font-size: 14px;
+}
+.menu-container ul li a:hover{
+  color: aliceblue;
+}
+/* this is my button */
+button{
+  padding: 4px 14px;
+  border-radius:10px ;
+  background-color:rgba(26, 26, 249, 0.468) ;
+  border: unset;
+  color:black ;
+  font-weight: bold;
+  font-size: 16px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  cursor: pointer;
+}
+button:hover{
+  background-color: rgb(159, 206, 248);
+  transition: 0.2s ease;
+}
+button:active{
+  background-color:rgb(10, 106, 190) ;
+  transition: 0.3s;
+}
+/* this is my header */
+header{
+  background: aquamarine;
+  width: 100%;
+ height: 400px; 
+display: flex;
+justify-content: center;
+align-items: center;
+font-size: 14px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: bold;
+color: black;
+text-shadow: black;
+position: relative;
+}
+p{
+
+  color: brown;
+}
+header p a {
+  color:darkgreen;
+}
+img{
+  width: 200px;
+  position: absolute;
+  top: 0;
+  right: 0px;
+}

@@ -1,0 +1,43 @@
+ul{
+  list-style: none;
+  padding: 0%;
+  margin: 0%;
+}
+
+li{
+  position: relative;
+}
+
+li span, ul{
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+li span{
+  padding: 10px;
+  justify-content: space-between;
+}
+
+li ul {
+  position: absolute;
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 10px;
+  display: none;
+  width: 200px;
+}
+
+li span::before{
+  content: "";
+  position: absolute;
+  right: -10px;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 10px solid #ddd;
+  
+}
+
+li:hover ul{
+  display: block;
+}

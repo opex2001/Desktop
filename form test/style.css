@@ -1,0 +1,71 @@
+/* body {
+  font-family: Arial, sans-serif;
+  }
+  .container {
+  width: 100px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .logo {
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  background-image: url('paylab\ logo\ 1.jpg'); /* replace with the actual logo image */
+  /* background-size: contain;
+  background-position: center;
+  } */
+
+h2{
+  font-size: 17px;
+  font-weight: normal;
+}
+ .form-title{
+  font-size: 20px;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  text-shadow: 1px 1px 5px black;
+  
+ }
+ .form-container{
+  align-items: center;
+  margin: auto;
+  width: 0px;
+  background-color: rgb(228, 183, 123);
+  padding: 10px 350px 10px 25px;
+  border: 5px solid rgb(239, 182, 106);
+  border-radius: 7px;
+  
+ }
+ .form-container p{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+
+ }
+ .form-container input{
+border: 1px solid black;
+border-radius: 3px;
+padding-left: 5px;
+padding-bottom: 5px;
+height: 15px;
+ }
+ .form-container ::placeholder{
+  color: rgb(155, 151, 146);
+ }
+ .form-container button{
+  background-color:rgb(247, 120, 9) ;
+  font-weight: bold;
+  font-size: 12;
+  border: unset;
+  border-radius: 3px;
+  padding: 10px 15px;
+  cursor: pointer;
+ }
+  button:hover{
+background-color: rgb(91, 40, 4);
+transition: 0.1s ease;
+ }
+  button:active{
+  background-color: rgb(109, 63, 14);
+ }

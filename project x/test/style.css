@@ -1,0 +1,100 @@
+/* table,tr,td{
+    border: 1px solid;
+    border-collapse: collapse;
+    padding: 5px;
+    font-size: 20px;
+}
+
+table {
+    background-color: steelblue;
+} */
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* this is my menu */
+
+.nav-container, .menu-container, .menu-container ul{
+    display: flex;
+    align-items: center;
+}
+
+.nav-container {
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f5eaea;
+    /* box-shadow: 1px 0 5px rgb(183, 183, 183); */
+    border-radius: 10px;
+}
+
+.nav-search {
+    width: 60%;
+    padding: 5px;
+    border-radius: 8px;
+    border: 2px solid rgb(25, 133, 215);
+}
+
+.menu-container ul li{
+    padding: 5px 10px ;
+    margin: 3px;
+    cursor: pointer;
+}
+
+.menu-container ul li a {
+    text-transform: capitalize;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+}
+
+.menu-container li a:hover {
+    color: rgb(30, 129, 210);
+    
+}
+
+
+/* button style */
+
+button{
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: rgb(20, 109, 205);
+    border: unset;
+    color: #fff;
+    font-weight: bold;
+    font-size: 12px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(164, 83, 25);
+    transition: 0.3s ease;
+}
+button:active{
+    background-color: rgb(108, 52, 13);
+}
+
+/* header */
+
+.header{
+  
+    width:100%;
+    height: 400px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    color: #Fff;
+    text-shadow: 5px 5px 6px black;
+    background-color: chocolate;
+    
+}
