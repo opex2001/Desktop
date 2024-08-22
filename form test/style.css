@@ -32,10 +32,10 @@ h2{
   align-items: center;
   margin: auto;
   width: 0px;
-  background-color: rgb(228, 183, 123);
+  background-color: rgb(235, 241, 252);
   padding: 10px 350px 10px 25px;
-  border: 5px solid rgb(239, 182, 106);
   border-radius: 7px;
+  border: 2px solid black;
   
  }
  .form-container p{
@@ -54,18 +54,19 @@ height: 15px;
   color: rgb(155, 151, 146);
  }
  .form-container button{
-  background-color:rgb(247, 120, 9) ;
+  background-color:rgb(116, 182, 253) ;
   font-weight: bold;
   font-size: 12;
   border: unset;
-  border-radius: 3px;
-  padding: 10px 15px;
+  border-radius: 5px;
+  padding: 5px 7px;
+  border: 1px solid black;
   cursor: pointer;
  }
   button:hover{
-background-color: rgb(91, 40, 4);
+background-color: rgb(28, 143, 238);
 transition: 0.1s ease;
  }
   button:active{
-  background-color: rgb(109, 63, 14);
+  background-color: rgb(29, 172, 249);
  }
